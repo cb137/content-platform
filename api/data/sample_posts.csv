@@ -1,0 +1,13 @@
+id,niche,text,posted_at,likes,comments
+1,ai-engineering,"I shipped my first AI app this week.
+Here is what broke first: the rate limits.
+I now log every call and its cost. #AI #Python #BuildInPublic",2026-10-26,12,3
+2,ai-engineering,"Most RAG demos fail in production.
+The retrieval step is where answers go wrong. Test it before you trust the model. #RAG #LLM #AI",2026-10-27,31,7
+3,career,"Entry level does not mean no projects.
+Build one real thing, ship it, and write about it every day. #Career #Jobs #Learning",2026-10-28,18,4
+4,productivity,"One tip for learning to code: write the test first.",2026-10-29,5,0
+5,ai-engineering,"Token costs add up quietly.
+Track tokens per feature from day one and you will never be surprised by the bill. #LLM #Cost #AI #Observability",2026-10-30,44,9
+6,career,"What I learned from 10 informational interviews.
+People answer a specific question far better than a vague one. Ask what they did last week. #Networking #Career #Interviews",2026-10-31,27,11
