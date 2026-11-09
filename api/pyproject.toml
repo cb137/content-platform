@@ -7,10 +7,17 @@ authors = [
     { name = "cb137", email = "cfbarret@andrew.cmu.edu" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi>=0.162.2",
+    "httpx>=0.28.1",
+    "pydantic>=2.14.3",
+    "tenacity>=9.2.1",
+    "uvicorn>=0.54.0",
+]
 
 [project.scripts]
 content-api = "content_api:main"
+post-stats = "content_api.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.13.7,<0.14.0"]
@@ -22,5 +29,6 @@ dev = [
     "pre-commit>=4.7.0",
     "pytest>=9.2.0",
     "pytest-cov>=7.1.0",
+    "respx>=0.23.1",
     "ruff>=0.17.4",
 ]
