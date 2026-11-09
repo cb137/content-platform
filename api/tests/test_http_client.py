@@ -3,6 +3,7 @@
 import httpx
 import pytest
 import respx
+
 from content_api.http_client import GITHUB_API, fetch_all_issues, fetch_json
 
 URL = "https://example.test/data"

@@ -4,6 +4,7 @@ import logging
 from pathlib import Path
 
 import pytest
+
 from content_api.loader import (
     EmptyCSVError,
     JsonFormatter,

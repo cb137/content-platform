@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import pytest
+
 from content_api.cli import hook, main, post_stats
 
 

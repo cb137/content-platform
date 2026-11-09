@@ -1,8 +1,9 @@
 from typing import Any
 
 import pytest
-from content_api.models import Post, format_errors
 from pydantic import ValidationError
+
+from content_api.models import Post, format_errors
 
 
 def valid_data(**changes: Any) -> dict[str, Any]:

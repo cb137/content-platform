@@ -1,6 +1,7 @@
 from typing import Any
 
 import pytest
+
 from content_api.formatter import PostTooLongError, format_linkedin_post
 from content_api.models import Post
 

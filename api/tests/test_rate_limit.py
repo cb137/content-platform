@@ -1,4 +1,5 @@
 import pytest
+
 from content_api.rate_limit import TokenBucket
 
 

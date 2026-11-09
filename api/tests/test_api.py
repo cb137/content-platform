@@ -2,9 +2,10 @@ from collections.abc import Iterator
 from typing import Any
 
 import pytest
+from fastapi.testclient import TestClient
+
 from content_api.main import app, get_store
 from content_api.store import PostStore
-from fastapi.testclient import TestClient
 
 
 @pytest.fixture

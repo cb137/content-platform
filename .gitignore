@@ -221,3 +221,6 @@ __marimo__/
 
 # Rows rejected by content_api.loader
 rejects.csv
+
+# LLM usage log written by content_api.usage_log
+llm_calls.jsonl
